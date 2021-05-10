@@ -9,17 +9,23 @@ Training an agent to successfully play the game is especially challenging becaus
 
 
 Installation Dependencies/ Tools and technologies used:
+
+
 •	Python
 •	TensorFlow 
 •	Pygame
 •	OpenCV-python
+
+
 Background:
+
 Reinforcement learning develops control patterns by providing feedback on a model’s selected actions, which encourages the model to select better actions in the future. At each time step, given some state’s, the model will select an action a, and then observe the new state’s and a reward r based on some optimality criterion.
 We specifically used a method known as Q learning, which approximates the maximum expected return for performing an action at a given state using an action-value (Q) function. Specifically, return gives the sum of the rewards until the game terminates, where the reward is discounted by a factor of γ at each time step. We formally define this as:
  
 
 
 Experimental Methods:
+
 Network Architecture
 We first preprocessed the game screens with following steps:
 1.	Convert image to grayscale
