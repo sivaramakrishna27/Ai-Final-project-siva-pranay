@@ -57,4 +57,3 @@ we found that for flappy bird the good results can be achieved with more trainin
 References:
 1.	Flappy Bird game: https://github.com/sourabhv/FlapPyBird
 2.	Deep Learning on videogames: https://github.com/asrivat1/DeepLearningVideoGames
-![image](https://user-images.githubusercontent.com/71453157/117602819-97929280-b11f-11eb-97c3-8402feec7690.png)
